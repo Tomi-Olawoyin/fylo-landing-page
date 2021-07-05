@@ -1,0 +1,59 @@
+body{
+      font-family: Open Sans;
+      font-size: 14px;
+
+}
+
+p, h2{
+    color: white;
+    text-align: center;
+}    
+header, .container, footer, .comment{
+        display: flex;
+}
+.image{
+        border-radius: 50%;
+        width: 15%;
+
+}
+nav{
+    margin-left: 75%;
+    margin-right: 2px;
+}
+.images-1{
+           margin-left: 45%;
+
+
+}
+.images-2{
+    margin-left: 45%;
+}
+.collafiles{
+          
+          flex-direction: column;
+}
+.first-comment, .second-comment, .third-comment{
+          border: 1px inset rgba(255, 255, 255, 0.082) ;
+          margin-left: 5%;
+          background-color: rgba(255, 255, 255, 0.082);
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+         color:aliceblue;
+
+}
+main{
+     position: relative;
+     border: 1px inset rgba(151, 13, 13, 0.082);
+     background-color: rgba(255, 255, 255, 0.082);
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 12%;
+     text-align: center;
+}
+.button-2, .email{
+           display: inline;
+}
